@@ -2,15 +2,15 @@ class Computer {
 entries =  [];//List<ComputerEntry>
 	
 	add(entry) {
-		entries.add(entry);
+		this.entries.add(entry);
 	}
 	
 	print() {
-		entries.forEach(c=>console.log(c));
+		this.entries.forEach(c=>console.log(c));
 	}
 
 	getEntry(patient) {
-		return entries.find(c=>c.patient == patient)
+		return this.entries.find(c=>c.patient == patient)
 		
 	}
 
