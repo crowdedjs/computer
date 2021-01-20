@@ -2,7 +2,7 @@ class Computer {
 entries =  [];//List<ComputerEntry>
 	
 	add(entry) {
-		this.entries.add(entry);
+		this.entries.push(entry);
 	}
 	
 	print() {
