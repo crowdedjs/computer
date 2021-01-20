@@ -1,5 +1,3 @@
-import ComputerEntry from "./ComputerEntry.js"
-
 class Computer {
 entries =  [];//List<ComputerEntry>
 	
